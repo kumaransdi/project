@@ -150,6 +150,10 @@ class PaymentController extends Controller
             echo "<pre>"; print_r('jsossssssssssssn'); 
             echo "<pre>"; print_r(json_decode($server_output)); die;
 
+
+
+            
+
     }    
 
     public function curltest(Request $request){
